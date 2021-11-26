@@ -1,7 +1,4 @@
 schema_version: 20180708
 name: fn-order-handler
-version: 0.0.5
-runtime: java11
-build_image: fnproject/fn-java-fdk-build:jdk11-1.0.142
-run_image: fnproject/fn-java-fdk:jre11-1.0.142
-cmd: com.example.fn.HelloFunction::handleRequest
+version: 0.0.6
+runtime: docker
